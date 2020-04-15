@@ -1,7 +1,7 @@
-<table class="fixed" style="border-style: hidden">
+<table style="border-collapse: collapse; border: none;">
 	<tr>
-		<td width="200px"><img src="img/logo.png"></td>
-		<td width="320px" style="font-size:18pt">A methodology for annotating the in-text citations of entities citing a retracted article</td>
+		<td width="30%"><img src="img/logo.png"></td>
+		<td width="45%"><h1>A methodology for annotating the in-text citations of entities citing a retracted article</h1></td>
 	</tr>
 </table>
 
