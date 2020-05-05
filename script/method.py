@@ -218,11 +218,18 @@ class Method:
                         category = area + " (miscellaneous)"
 
                     #3. Checks whether the value of the LCC subject is also a Scimago subject category
+                    # some category names might be included in more than one area -> We take into consideration all the alternativies
                     else:
                         query_df = scimago_lookup_df.loc[scimago_lookup_df['category'].str.lower() == lcc_subject.lower()]
                         if len(query_df) > 0:
-                            area = query_df["area"].values[0]
-                            category = query_df["category"].values[0]
+                            area = ""
+                            category = ""
+                            for a_index in range(0,len(query_df["area"].values)):
+                                area = area + query_df["area"].values[a_index] +";;"
+                                category = category + query_df["category"].values[a_index] +";;"
+                            area = area[:-2]
+                            category = category[:-2]
+
 
                     step_3_4_data[0]["scimago_area"] = area
                     step_3_4_data[0]["scimago_category"] = category
