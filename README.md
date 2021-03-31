@@ -1,6 +1,5 @@
 <div>
-<span><img src="img/logo.png"></span><span><h1>A methodology for gathering and annotating the raw-data/features of the documents citing a retracted article</h1>
-<a href="https://www.protocols.io/view/a-methodology-for-gathering-and-annotating-the-raw-bdc4i2yw?version_warning=no">https://www.protocols.io/view/a-methodology-for-gathering-and-annotating-the-raw-bdc4i2yw?version_warning=no</a>
+<span><img src="img/logo.png"></span><span><h1>A methodology for gathering and annotating the raw-data/features of the documents citing a retracted article </h1><h3><a href="https://www.protocols.io/view/a-methodology-for-gathering-and-annotating-the-raw-bdc4i2yw?version_warning=no">https://www.protocols.io/view/a-methodology-for-gathering-and-annotating-the-raw-bdc4i2yw?version_warning=no</a></h3>
 </span>
 </div>
 
